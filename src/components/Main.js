@@ -128,19 +128,35 @@ class Main extends React.Component {
                 <span className="label">Twitter</span>
               </a>
             </li>
-            <li>
+            <li
+              onClick={() => window.open('https://www.facebook.com/troy.kirin')}
+            >
               <a href="#" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
-            <li>
+            <li
+              onClick={() =>
+                window.open('https://www.instagram.com/troy.kirin/')
+              }
+            >
               <a href="#" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
-            <li>
+            <li onClick={() => window.open('https://github.com/TroyKirin')}>
               <a href="#" className="icon fa-github">
                 <span className="label">GitHub</span>
+              </a>
+            </li>
+
+            <li
+              onClick={() =>
+                window.open('https://www.linkedin.com/in/troykirin/')
+              }
+            >
+              <a href="#" className="icon fa-linkedin">
+                <span className="label">LinkedIn</span>
               </a>
             </li>
           </ul>
