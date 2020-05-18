@@ -1,8 +1,8 @@
 {
   "name": "demo-app",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://troykirin.github.io/troykirin.github.io",
+  "private": false,
+  "homepage": "https://troykirin.github.io/react-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
