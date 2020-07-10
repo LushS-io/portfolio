@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Troy Kirin: Portfolio Site',
+    title: 'Troy Kirin Portfolio',
     author: 'Troy Kirin',
-    description: 'Portfolio Site',
+    description: 'Portfolio of Projects',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -22,3 +22,4 @@ module.exports = {
     'gatsby-plugin-offline',
   ],
 }
+
