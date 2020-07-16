@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
     <p> WEBSITE IN DEVELOPMENT.</p>
+    <p> Troy Kirin copywrite</p>
   </footer>
 )
 
