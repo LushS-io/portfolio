@@ -3,7 +3,6 @@
   "description": "Troy Kirin's Portfolio Site",
   "version": "1.0.2",
   "author": "Troy Kirin",
-  "homepage": "https://troykirin.io/",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -15,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/troykirin/portfolio"
+    "url": "https://github.com/troykirin/portfolio.git"
   },
   "keywords": [
     "gatsby"
@@ -33,7 +32,8 @@
     "react-dom": "^16.8.5",
     "react-helmet": "^6.1.0",
     "tar": "^4.4.8",
-    "typescript": "^3.4.3"
+    "typescript": "^3.4.3",
+    "webpack": "^4.43.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
