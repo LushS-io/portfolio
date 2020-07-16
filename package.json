@@ -1,7 +1,7 @@
 {
   "name": "TroyKirin.io",
   "description": "Troy Kirin's Portfolio Site",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Troy Kirin",
   "homepage": "http://troykirin.github.io/troykirin.io",
   "scripts": {
@@ -10,8 +10,8 @@
     "serve": "gatsby serve",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "yarn build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",
