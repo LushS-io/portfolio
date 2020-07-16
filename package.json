@@ -23,6 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "gatsby": "^2.24.2",
+    "gatsby-plugin-manifest": "^2.4.18",
     "gatsby-plugin-offline": "^3.2.17",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sass": "^2.0.11",
