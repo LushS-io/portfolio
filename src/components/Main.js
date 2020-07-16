@@ -75,6 +75,21 @@ class Main extends React.Component {
         </article>
 
         <article
+          id="projects"
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="projects">Projects</h2>
+          <span className="image main">
+            <img src={pic03} alt="" />
+          </span>
+
+          <p>I have worked on the following projects.</p>
+        </article>
+
+        <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
