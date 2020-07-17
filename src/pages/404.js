@@ -1,11 +1,18 @@
-import React from 'react'
-import Layout from '../components/layout'
+import React from 'react';
 
-const NotFoundPage = () => (
-  <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+import Layout from '../components/Layout';
+
+const IndexPage = () => (
+  <Layout fullMenu>
+    <section id="wrapper">
+      <header>
+        <div className="inner">
+          <h2>Page not found</h2>
+          <p>Not a valid URL</p>
+        </div>
+      </header>
+    </section>
   </Layout>
-)
+);
 
-export default NotFoundPage
+export default IndexPage;
