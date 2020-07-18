@@ -2,8 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import pic1 from '../assets/images/bot-icon.jpg';
+import pic2 from '../assets/images/react-icon.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
@@ -16,7 +16,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+          <span className="icon fa-superpowers"></span>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -30,13 +30,10 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">Chatbot Development</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Experience with various Chatbot tools such as IBM Cloud's Watson
+              Intelligent Assistant, Azure BotFramework, Rasa.
             </p>
             <a href="/#" className="special">
               Learn more
@@ -51,13 +48,11 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">React Develoment</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Project based learning for React as a frontend technology. Along
+              the path, learned the following stack Javascript, NodeJS, Express,
+              SocketIO.
             </p>
             <a href="/#" className="special">
               Learn more
@@ -72,16 +67,18 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">Data Science</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Passion for data lead me into the world of Data Science working
+              with Statistical Modeling, Machine Learning, and Data
+              Visualization. Work with Python, R, Pandas, Dplyr.
             </p>
+            <p>Data cleansing, data wrangling, exploratory data analysis.</p>
             <a href="/#" className="special">
               Learn more
+            </a>
+            <a href="/#" className="special">
+              Checkout Kaggle
             </a>
           </div>
         </div>
@@ -89,22 +86,19 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
+          <h2 className="major">What Lies Ahead</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            As I charge ahead, these are plans that lie ahead.
           </p>
           <section className="features">
             <article>
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <h3 className="major">Data Engineering</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Build infastructure for big data environment.
+            Work with ElasticSearch for a noSQL approach 
               </p>
               <a href="/#" className="special">
                 Learn more
@@ -114,10 +108,12 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic5} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
+              <h3 className="major">DevOps</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Build on Azure DevOps working on building a CI/CD Pipeline
+              </p>
+              <p>
+                Familarize myself with CircleCI
               </p>
               <a href="/#" className="special">
                 Learn more
