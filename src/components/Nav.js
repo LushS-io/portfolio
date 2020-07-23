@@ -17,7 +17,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               Home
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               onClick={e => {
                 onMenuToggle();
@@ -26,8 +26,8 @@ export default function Nav({ onMenuToggle = () => {} }) {
             >
               Generic Page
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link
               onClick={e => {
                 onMenuToggle();
@@ -36,7 +36,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
             >
               Elements
             </Link>
-          </li>
+          </li> */}
         </ul>
         <a
           className="close"
