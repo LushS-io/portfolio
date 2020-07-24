@@ -29,16 +29,17 @@ export default function Nav({ onMenuToggle = () => {} }) {
             </Link>
           </li>
 
-          {/* <li>
+          <li>
             <Link
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Generic"
+              to="/geostream"
             >
-              Generic Page
+              GeoStream
             </Link>
-          </li> */}
+          </li>
+
           {/* <li>
             <Link
               onClick={e => {
