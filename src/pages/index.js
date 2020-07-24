@@ -86,10 +86,75 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
+          
+          <h2 className="major">Hackathon Projects</h2>
+          <p>Projects I was inspired to pitch and build.</p>
+          
+          <section className="features">
+            
+            <article>
+              <a href="https://polispaceapp.webflow.io/" className="image">
+                <img src={pic6} alt="" />
+              </a>
+              <h3 className="major">PoliSpace</h3>
+              <p>Discuss Real World Issues.</p>
+              <a href="/polispace" className="special">
+                Learn more
+              </a>
+              <a href="https://polispaceapp.webflow.io/" className="special">
+                Visit Site
+              </a>
+            </article>
+
+            <article>
+              <a href="https://geostorm.webflow.io/" className="image">
+                <img src={pic7} alt="" />
+              </a>
+              <h3 className="major">GeoStream</h3>
+              <p>Wearables for Wayfinding in Natural Disaster involving IoT</p>
+              <p>
+                Apply predictive analytics to improve emergency response
+                readiness.
+              </p>
+              <a href="/geostream" className="special">
+                Learn More
+              </a>
+              <a href="https://geostorm.webflow.io/" className="special">
+                Visit site
+              </a>
+            </article>
+
+            <article>
+              <a href="https://geostorm.webflow.io/" className="image">
+                <img src={pic7} alt="" />
+              </a>
+              <h3 className="major">BarHop</h3>
+              <p>Rideshare app to get you home safely!</p>
+              <p>CrimsonCode Hackathon at WSU</p>
+              <a href="https://geostorm.webflow.io/" className="special">
+                Learn more
+              </a>
+            </article>
+
+            <article>
+              <a href="https://geostorm.webflow.io/" className="image">
+                <img src={pic7} alt="" />
+              </a>
+              <h3 className="major">mood.ai</h3>
+              <p>Employee mood tracking for the Enterprise</p>
+              <p>Hack Washington 2019</p>
+              <a href="https://geostorm.webflow.io/" className="special">
+                Learn more
+              </a>
+            </article>
+          </section>
+        </div>
+      </section>
+
+      <section id="five" className="wrapper alt style1">
+        <div className="inner">
           <h2 className="major">What Lies Ahead</h2>
-          <p>
-            As I charge ahead, these are plans that lie ahead.
-          </p>
+          <p>As I charge ahead, these are plans that lie ahead.</p>
           <section className="features">
             <article>
               <a href="/#" className="image">
@@ -97,8 +162,8 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Data Engineering</h3>
               <p>
-                Build infastructure for big data environment.
-            Work with ElasticSearch for a noSQL approach 
+                Build infastructure for big data environment. Work with
+                ElasticSearch for a noSQL approach
               </p>
               <a href="/#" className="special">
                 Learn more
@@ -109,38 +174,8 @@ const IndexPage = () => (
                 <img src={pic5} alt="" />
               </a>
               <h3 className="major">DevOps</h3>
-              <p>
-                Build on Azure DevOps working on building a CI/CD Pipeline
-              </p>
-              <p>
-                Familarize myself with CircleCI
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic6} alt="" />
-              </a>
-              <h3 className="major">Ante fermentum</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
-              </a>
-              <h3 className="major">Fusce consequat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
+              <p>Build on Azure DevOps working on building a CI/CD Pipeline</p>
+              <p>Familarize myself with CircleCI</p>
               <a href="/#" className="special">
                 Learn more
               </a>

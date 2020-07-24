@@ -36,7 +36,6 @@
     "react-helmet": "^6.1.0",
     "react-scrollspy": "^3.4.2",
     "smoothscroll-polyfill": "^0.4.4",
-
     "tar": "^4.4.8",
     "typescript": "^3.4.3",
     "webpack": "^4.43.0"
