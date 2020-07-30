@@ -17,17 +17,30 @@ export default function Nav({ onMenuToggle = () => {} }) {
               Home
             </Link>
           </li>
+
           <li>
             <Link
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Generic"
+              to="/moodai"
             >
-              Generic Page
+              moodai
             </Link>
           </li>
+
           <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/geostream"
+            >
+              GeoStream
+            </Link>
+          </li>
+
+          {/* <li>
             <Link
               onClick={e => {
                 onMenuToggle();
@@ -36,7 +49,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
             >
               Elements
             </Link>
-          </li>
+          </li> */}
         </ul>
         <a
           className="close"
