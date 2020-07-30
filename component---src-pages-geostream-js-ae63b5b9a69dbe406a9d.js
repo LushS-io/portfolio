@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{ArtS:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),r=t.n(a),c=t("7oih");n.default=function(){return r.a.createElement(c.a,{fullmenu:!0},r.a.createElement("div",null,r.a.createElement("h2",{align:"center"},"GeoStream")))}}}]);
+//# sourceMappingURL=component---src-pages-geostream-js-ae63b5b9a69dbe406a9d.js.map
